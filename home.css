@@ -1,0 +1,173 @@
+/* Home Section */
+.home {
+    width: 800;
+    height: 600;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Price List Section */
+.priceList {
+    height: 100%;
+    width: 30%;
+    border: 1px solid #636363;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+/* Section Titles */
+.title {
+    color: #000;
+    text-transform: capitalize;
+    /* Section Title Text */
+    font-size: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: flex;
+    align-items: end;
+}
+
+/* Box List Components */
+.box,
+ul {
+    width: 100%;
+}
+
+.box {
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    gap: 20px;
+}
+
+/* List name */
+.name {
+    color: #949494;
+    text-transform: capitalize;
+    /* Label Text */
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+/* List price */
+.price {
+    color: #636363;
+    text-align: right;
+    font-size: 36px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 115px;
+    display: flex;
+    justify-content: end;
+}
+
+.price>span {
+    font-size: 22px;
+    margin-bottom: auto;
+}
+
+/* Deals Section */
+.dealAlerts {
+    display: flex;
+    width: 70%;
+    height: 346px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+}
+
+/* first child */
+.dealAlerts>section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 11px;
+}
+
+/* Title label */
+.title>span {
+    color: #949494;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: none;
+
+    margin-left: auto;
+}
+
+input {
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #949494;
+}
+
+input:focus {
+    border: 1px solid #949494;
+}
+
+/* Deals Button */
+button {
+    border: none;
+    background-color: #32C1FF;
+    padding: 10px 30px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.actions {
+    align-self: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #949494;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions>h4 {
+    color: #000;
+    font-size: 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
